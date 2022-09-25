@@ -95,7 +95,12 @@ run().catch(err=> console.log(err))
 
 
 
-
+app.get("/", async (req, res) => {
+  res.json({Messeage: "Hellow from Crud Server"})  
+})
+app.get("/test", async (req, res) => {
+  res.json({Messeage: "Hellow from Crud Server with test route"})  
+})
 
 app.listen(port, () => {
     console.log("Run on PORT", port)
