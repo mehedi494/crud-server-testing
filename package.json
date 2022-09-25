@@ -2,6 +2,7 @@
   "name": "first-serverwith-mongodb",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js",
     "start-dev": " nodemon index.js"
